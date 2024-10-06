@@ -42,3 +42,12 @@ pub fn get_running_processes() -> Vec<String> {
 
     processes
 }
+
+// pub fn detect_https_in_image(image_path: &str) -> bool {
+//     let mut tess = Tesseract::new(None, Some("eng")).expect("Failed to initialize Tesseract");
+//     tess.set_image(image_path).expect("Failed to set image");
+//     let text = tess.get_text().expect("Failed to recognize text");
+
+//     // Check if the recognized text contains "https://"
+//     text.contains("https://")
+// }
